@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: brinia
+Contributors: BriniA
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Author: Brini Abderrahman
