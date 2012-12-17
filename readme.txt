@@ -2,17 +2,18 @@
 Contributors: BriniA
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
-Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery
+Tags: portfolio, filterable, filter, categorized, category, sort, sortable, image, gallery
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.0
+Stable tag: 1.1
 Donate link: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
 Awesome Filterable Portfolio lets you create a very modern and outstanding portfolio
 
 == Description ==
 
-Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
+Awesome Filterable Portfolio allows designers, artists, photographers to create, manage and publish a very modern and outstanding filterable portfolio that can be filtered using smooth animations.
+
 
 <h4>How to use it?</h4>
 1. Download and install the plugin

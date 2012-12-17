@@ -10,6 +10,7 @@ ul#afp-filter{
 	list-style: none;
 }
 
+/*** Categories List style ***/
 ul#afp-filter li{
 	display: inline-block;
 	padding-right: 20px;
@@ -20,15 +21,18 @@ ul.afp-items{
 	list-style: none;
 }
 
+/*** Single Portfolio Item style (thumbnail and the project details) ***/
 li.afp-single-item{
 	float: left;
 }
 
+/*** Portfolio Item Details style ***/
 ul.afp-item-details{
 	display: block;
 	list-style: none;
 }
 
+/*** Active Category style ***/
 .afp-active-cat{
 	font-weight: bold;
 }
