@@ -56,8 +56,9 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 
 == Changelog ==
 
-= 1.0 =
+= 1.1 =
 * Bugs fixes
+*Documented files
 
 == Upgrade Notice ==
 
