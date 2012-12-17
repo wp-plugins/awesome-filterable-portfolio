@@ -5,7 +5,7 @@ Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfo
 Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.0
+Stable tag: 1.1
 Donate link: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
 Awesome Filterable Portfolio lets you create a very modern and outstanding portfolio
