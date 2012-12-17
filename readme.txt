@@ -12,7 +12,7 @@ Awesome Filterable Portfolio lets you create a very modern and outstanding portf
 
 == Description ==
 
-Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
+Awesome Filterable Portfolio allows designers, artists, photographers to create, manage and publish a very modern and outstanding filterable portfolio that can be filtered using smooth animations.
 
 <h4>How to use it?</h4>
 1. Download and install the plugin
