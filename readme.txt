@@ -67,7 +67,6 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 
 = 1.1 =
 * Added help links to the plugin
-* Documented files
 
 == Upgrade Notice ==
 
