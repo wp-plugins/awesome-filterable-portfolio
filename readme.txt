@@ -63,6 +63,11 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 
 = 1.0 =
 * Bugs fixes
+* Addding the WordPress Media Uploader
+
+= 1.1 =
+* Added help links to the plugin
+* Documented files
 
 == Upgrade Notice ==
 
