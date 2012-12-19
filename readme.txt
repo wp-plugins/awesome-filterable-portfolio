@@ -14,6 +14,12 @@ Awesome Filterable Portfolio lets you create a very modern and outstanding portf
 
 Awesome Filterable Portfolio allows designers, artists, photographers to create, manage and publish a very modern and outstanding filterable portfolio that can be filtered using smooth animations.
 
+<h4>Features</h4>
+* Categorized portfolio items
+* Filtered items using jQuery animations
+* Unlimited items/categories
+* Easy to use and customize
+
 <h4>How to use it?</h4>
 1. Download and install the plugin
 2. Through the admin panel, create a category
