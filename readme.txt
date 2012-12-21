@@ -68,6 +68,10 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 = 1.1 =
 * Added help links to the plugin
 
+= 1.2 =
+* Enhancements
+* Empty fields won't display
+
 == Upgrade Notice ==
 
 Be sure to update the plugin once an update is available
