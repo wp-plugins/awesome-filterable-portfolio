@@ -4,7 +4,7 @@
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Description: Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
-Version: 1.0
+Version: 1.2
 Author: BriniA
 Author URI: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
@@ -469,7 +469,12 @@ if($_POST['which']=='new_portfolio_item'){
 	$item_thumbnail = $_POST['thumbnail_adr'];
 	$item_image = $_POST['image_adr'];
 	$item_description = $_POST['description'];
-	$item_date = date("Y-m-d", strtotime($item_date));
+	if ($item_date != NULL) {
+		$item_date = date("Y-m-d", strtotime($item_date));
+		$item_date = ', item_date = \'' . $item_date . '\'';
+	} else {
+		$item_date = 'NULL';
+	}
 	$wpdb->query($wpdb->prepare('
 	INSERT INTO ' . $wpdb->prefix . 'afp_items(item_title, item_link, item_description, item_client, item_date, item_thumbnail, item_image, item_category)
 	VALUES( %s, %s, %s, %s, %s, %s, %s, %s)' , $item_title, $item_link, $item_description, $item_client, $item_date, $item_thumbnail, $item_image, $item_category ));
@@ -485,8 +490,13 @@ if($_POST['which']=='update_portfolio_item'){
 	$item_thumbnail = $_POST['thumbnail_adr'];
 	$item_image = $_POST['image_adr'];
 	$item_description = $_POST['description'];
-	$item_date = date("Y-m-d", strtotime($item_date));
-	$wpdb->query($wpdb->prepare('UPDATE ' . $wpdb->prefix . 'afp_items SET item_title = \'' . $item_title . '\', item_link =\''. $item_link . '\', item_description =\''. $item_description . '\', item_client =\''. $item_client . '\', item_date =\''. $item_date . '\', item_thumbnail =\''. $item_thumbnail . '\', item_image =\''. $item_image . '\', item_category =\''. $item_category . '\' WHERE item_id=' . $item_id));
+	if ($item_date != NULL) {
+		$item_date = date("Y-m-d", strtotime($item_date));
+		$item_date = ', item_date = \'' . $item_date . '\'';
+	} else {
+		$item_date = ', item_date = NULL';
+	}
+	$wpdb->query($wpdb->prepare('UPDATE ' . $wpdb->prefix . 'afp_items SET item_title = \'' . $item_title . '\', item_link =\''. $item_link . '\', item_description =\''. $item_description . '\', item_client =\''. $item_client .  $item_date . ', item_thumbnail =\''. $item_thumbnail . '\', item_image =\''. $item_image . '\', item_category =\''. $item_category . '\' WHERE item_id=' . $item_id));
 	header ('Location: ' . get_bloginfo('url') . '/wp-admin/admin.php?page=afp_add_new_portfolio_item&msg=edited&item_id=' . $item_id);
 }
 
@@ -589,10 +599,10 @@ function afp_shortcode(){
                 <a class="fancybox" title="<?php echo( 'Description: ' . $item->item_description ); ?>" href="<?php echo ( $item->item_image ); ?>"><img alt="" class="img-link-initial" src="<?php echo($item->item_thumbnail); ?>">
                 </a><br />
                 <ul class="afp-item-details">
-                    <li><strong><?php echo($item->item_title); ?></strong></li>
-                    <li><?php echo($item->item_client); ?></li>
-                    <li><?php echo(date("m/d/Y", strtotime($item->item_date))); ?></li>
-                    <li><a target="_blank" href="<?php echo($item->item_link); ?>">Project Link</a></li>
+                    <?php if($item->item_title != null) { ?><li><strong><?php echo($item->item_title); ?></strong></li><?php } ?>
+                    <?php if($item->item_client != null) { ?><li><?php echo($item->item_client); ?></li><?php } ?>
+                    <?php if($item->item_date != null || $item->item_date == '0000-00-00') { ?><li><?php echo(date("m/d/Y", strtotime($item->item_date))); ?></li><?php } ?>
+                    <?php if($item->item_link != null) { ?><li><a target="_blank" href="<?php echo($item->item_link); ?>">Project Link</a></li><?php } ?>
                 </ul>
             </li>
             <?php
