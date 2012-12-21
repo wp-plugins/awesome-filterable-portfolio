@@ -2,10 +2,11 @@
 Contributors: BriniA
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
-Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery
+Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase
 Requires at least: 3.0
 Tested up to: 3.5
 Stable tag: 1.2
+License: GPL
 Donate link: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
 Awesome Filterable Portfolio lets you create a very modern and outstanding portfolio
@@ -56,15 +57,16 @@ Using the shortcode:
 Yes, you may call the portfolio in a page or a post.
 
 == Screenshots ==
-screenshot-1.png
-screenshot-2.png
-screenshot-3.png
-screenshot-4.png
-screenshot-5.png
-screenshot-6.png
-screenshot-7.png
 
 Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">the plugin's page</a> and watch the video tutorial
+
+1. screenshot-1.png
+2. screenshot-2.png
+3. screenshot-3.png
+4. screenshot-4.png
+5. screenshot-5.png
+6. screenshot-6.png
+7. screenshot-7.png
 
 == Changelog ==
 
