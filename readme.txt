@@ -56,6 +56,13 @@ Using the shortcode:
 Yes, you may call the portfolio in a page or a post.
 
 == Screenshots ==
+screenshot-1.png
+screenshot-2.png
+screenshot-3.png
+screenshot-4.png
+screenshot-5.png
+screenshot-6.png
+screenshot-7.png
 
 Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">the plugin's page</a> and watch the video tutorial
 
