@@ -79,7 +79,12 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 
 = 1.2 =
 * Enhancements
-* Empty fields won't display
+
+= 1.3 =
+
+* If a field is left empty, it won't display
+* Bug fixes
+* Added some descriptive text
 
 == Upgrade Notice ==
 
