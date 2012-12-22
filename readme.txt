@@ -77,9 +77,11 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 = 1.1 =
 * Added help links to the plugin
 
-= 1.2 =
-* Enhancements
-* Empty fields won't display
+= 1.3 =
+
+* If a field is left empty (date, project link), it won't display in the portfolio items details
+* Added some descriptive text
+* Minor Bug fixes
 
 == Upgrade Notice ==
 
