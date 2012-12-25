@@ -295,6 +295,7 @@ function afp_get_potfolio_items_page(){
 		</tbody>
 		<tfoot>
 			<tr>
+            	<th width="120px">Thumbnail</th>
 				<th class="row-title">Title</th>
 				<th>Client</th>
 				<th>Date</th>
