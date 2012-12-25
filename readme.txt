@@ -5,7 +5,7 @@ Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfo
 Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPL
 Donate link: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
@@ -73,15 +73,14 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 = 1.0 =
 * Bugs fixes
 * Addding the WordPress Media Uploader
-
-= 1.1 =
 * Added help links to the plugin
 
-= 1.3 =
+= 1.4 =
 
+* Bugs fixes
 * If a field is left empty (date, project link), it won't display in the portfolio items details
 * Added some descriptive text
-* Minor Bug fixes
+* Added: When listing portfolio items now you can see a preview of the item
 
 == Upgrade Notice ==
 

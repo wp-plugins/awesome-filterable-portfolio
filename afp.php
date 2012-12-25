@@ -4,7 +4,7 @@
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Description: Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
-Version: 1.3
+Version: 1.4
 Author: BriniA
 Author URI: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
@@ -265,6 +265,7 @@ function afp_get_potfolio_items_page(){
 	<table class="widefat">
 		<thead>
 			<tr>
+            	<th width="120px">Thumbnail</th>
 				<th class="row-title">Title</th>
 				<th>Client</th>
 				<th>Date</th>
@@ -276,6 +277,7 @@ function afp_get_potfolio_items_page(){
 		<?php
 		foreach ( $items as $item ) {
 			echo('<tr>
+					<td><div style="background: url('.$item->item_thumbnail.') center; background-size: cover; width: 100px; height: 100px;"></div></td>
 					<td class="title column-title">
 						<a href="' . get_bloginfo('url') . '/wp-admin/admin.php?page=afp_add_new_portfolio_item&item_id=' . $item->item_id . '"><b>' . $item->item_title . '</b></a>
 						<div class="row-actions">
@@ -594,7 +596,7 @@ function afp_shortcode(){
             $k = 1;
             foreach ($items as $item ){ ?>
             <li class="afp-single-item" data-id="id-<?php echo($k); ?>" data-type="<?php echo( ereg_replace("[^A-Za-z0-9]", "", $item->item_category) ); ?>">
-                <a class="fancybox" title="<?php echo( 'Description: ' . $item->item_description ); ?>" href="<?php echo ( $item->item_image ); ?>"><img alt="" class="img-link-initial" src="<?php echo($item->item_thumbnail); ?>">
+                <a class="fancybox" title="<?php echo( $item->item_description ); ?>" href="<?php echo ( $item->item_image ); ?>"><img alt="" class="img-link-initial" src="<?php echo($item->item_thumbnail); ?>">
                 </a><br />
                 <ul class="afp-item-details">
                     <?php if($item->item_title != null) { ?><li><strong><?php echo($item->item_title); ?></strong></li><?php } ?>
