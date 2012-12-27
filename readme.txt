@@ -73,15 +73,18 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 = 1.0 =
 * Bugs fixes
 * Addding the WordPress Media Uploader
-
-= 1.1 =
 * Added help links to the plugin
 
-= 1.3 =
+= 1.4 =
 
+* Bugs fixes
 * If a field is left empty (date, project link), it won't display in the portfolio items details
 * Added some descriptive text
-* Minor Bug fixes
+* Added: When listing portfolio items now you can see a preview of the item
+
+= 1.5 =
+
+* Fixed: For some themes a small dash appears next to the image
 
 == Upgrade Notice ==
 
