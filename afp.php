@@ -4,7 +4,7 @@
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Description: Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
-Version: 1.4
+Version: 1.5
 Author: BriniA
 Author URI: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
@@ -597,8 +597,7 @@ function afp_shortcode(){
             $k = 1;
             foreach ($items as $item ){ ?>
             <li class="afp-single-item" data-id="id-<?php echo($k); ?>" data-type="<?php echo( ereg_replace("[^A-Za-z0-9]", "", $item->item_category) ); ?>">
-                <a class="fancybox" title="<?php echo( $item->item_description ); ?>" href="<?php echo ( $item->item_image ); ?>"><img alt="" class="img-link-initial" src="<?php echo($item->item_thumbnail); ?>">
-                </a><br />
+                <a class="fancybox" title="<?php echo( $item->item_description ); ?>" href="<?php echo ( $item->item_image ); ?>"><img alt="" class="img-link-initial" src="<?php echo($item->item_thumbnail); ?>"></a><br />
                 <ul class="afp-item-details">
                     <?php if($item->item_title != null) { ?><li><strong><?php echo($item->item_title); ?></strong></li><?php } ?>
                     <?php if($item->item_client != null) { ?><li><?php echo($item->item_client); ?></li><?php } ?>
