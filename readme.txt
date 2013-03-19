@@ -31,9 +31,6 @@ That's it!
 
 Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">the plugin's page</a> for the complete documentation and a video tutorial on how to use it.
 
-<h4>Support</h4>
-Dears users, please feel free to contact me if you have any questions or suggestions regarding this plugin.
-
 == Installation ==
 
 This section describes how to install the plugin and get it working.
