@@ -34,8 +34,8 @@ jQuery(document).ready(function($) {
 		
 		// call quicksand and assign transition parameters
 		$holder.quicksand($filteredData, {
-			duration: 600,
-			easing: 'easeInOutQuad'
+			duration: dur,
+			easing: afp_easing
 		});
 		return false;
 	});

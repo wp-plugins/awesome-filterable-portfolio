@@ -32,3 +32,8 @@ ul.afp-item-details{
 .afp-active-cat{
 	font-weight: bold;
 }
+
+/*** Clear Fix ***/
+.afp-clear{
+	clear: both;
+}
