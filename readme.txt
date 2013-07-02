@@ -7,7 +7,7 @@ Requires at least: 3.0
 Tested up to: 3.5
 Stable tag: 1.6
 License: GPL
-Donate link: https://load.payoneer.com/LoadToPage.aspx?email=thekingabdou@hotmail.fr
+Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
 Awesome Filterable Portfolio lets you create a very modern and outstanding portfolio
 
