@@ -107,7 +107,13 @@ function afp_help_meta_box(){
 				<h3><span>Like the plugin?</span></h3>
 				<div class="inside">
                 	<p style="color: #C00;">Help me make it better! <strong>Even a small donation is very much appreciated :)</strong></p>
-                    <p><a href="https://load.payoneer.com/LoadToPage.aspx?email=thekingabdou@hotmail.fr" class="button button-primary" target="_blank">Donate</a></p>
+                    <p><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="XMCYGZ6RNV572">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</p>
 				</div>
 			</div>
             
