@@ -2,7 +2,7 @@
 Contributors: BriniA
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
-Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase
+Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase, work
 Requires at least: 3.0
 Tested up to: 3.5
 Stable tag: 1.6
@@ -13,7 +13,7 @@ Awesome Filterable Portfolio lets you create a very modern and outstanding portf
 
 == Description ==
 
-Awesome Filterable Portfolio allows designers, artists, photographers to create, manage and publish a very modern and outstanding filterable portfolio that can be filtered using smooth animations.
+Awesome Filterable Portfolio allows designers, artists, photographers to create, manage and publish a very modern and outstanding filterable portfolio that can be filtered using smooth animations. Set up, customize and publish your portfolio within just a few minutes.
 
 <h4>Features</h4>
 * Order Categories
@@ -28,11 +28,13 @@ Awesome Filterable Portfolio allows designers, artists, photographers to create,
 1. Download and install the plugin
 2. Through the admin panel, create a category
 3. Create a portfolio item
-4. Add the following shortcode wherever you like (page, post) to show the portfolio 
+4. Add the following shortcode wherever you like on a page or post to show the portfolio 
 <pre>[af-portfolio]</pre>
 That's it!
 
-Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">the plugin's page</a> for the complete documentation and a video tutorial on how to use it.
+<em>Use the Options page to customize your portfolio.</em>
+
+Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio page</a> for the complete documentation and a video tutorial on how to use it.
 
 == Installation ==
 
@@ -47,18 +49,16 @@ That's it!
 
 == Frequently Asked Questions ==
 
-= How to call the portfolio I have just created? =
+= How to display the portfolio I have just created? =
 
-Using the shortcode:
+Use the following shortcode wherever you want in a page or post to display your portfolio:
 <pre>[af-portfolio]</pre>
 
 = Will that work on posts? =
 
-Yes, you may call the portfolio in a page or a post.
+Yes, you may display the portfolio in a page or a post.
 
 == Screenshots ==
-
-Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">the plugin's page</a> and watch the video tutorial
 
 1. screenshot-1.png
 2. screenshot-2.png
@@ -98,4 +98,4 @@ Visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-por
 
 == Upgrade Notice ==
 
-Be sure to update the plugin once an update is available
+Be sure to update the plugin once an update is available. In case you had any issue after updating to version 1.6 or later, please deactivate the plugin and reactivate it since there was some changes made to the core code of the plugin. Thanks!
