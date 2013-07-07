@@ -25,10 +25,10 @@ Awesome Filterable Portfolio allows designers, artists, photographers to create,
 * Easy to use and customize
 
 <h4>How to use it?</h4>
-1. Download and install the plugin
-2. Through the admin panel, create a category
-3. Create a portfolio item
-4. Add the following shortcode wherever you like on a page or post to show the portfolio 
+Once the plugin is installed and activated a new menu "Portfolio Items" will be added
+1. Click on the link "Add New Category" to add a new category
+2. To add an item to your portfolio, click on "Add New Item" and enter your portfolio item details.
+3. Add the following shortcode wherever you like on a page or post to show the portfolio 
 <pre>[af-portfolio]</pre>
 That's it!
 
