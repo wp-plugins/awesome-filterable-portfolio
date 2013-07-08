@@ -26,6 +26,7 @@ Awesome Filterable Portfolio allows designers, artists, photographers to create,
 
 <h4>How to use it?</h4>
 Once the plugin is installed and activated a new menu "Portfolio Items" will be added
+
 1. Click on the link "Add New Category" to add a new category
 2. To add an item to your portfolio, click on "Add New Item" and enter your portfolio item details.
 3. Add the following shortcode wherever you like on a page or post to show the portfolio 
@@ -34,8 +35,7 @@ That's it!
 
 <em>Use the Options page to customize your portfolio.</em>
 
-<h4>Support</h4>
-Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio page</a> for the complete documentation and a video tutorial on how to use it. If you have any questions please feel free to post to the <a href="http://wordpress.org/support/plugin/awesome-filterable-portfolio">forum</a> or <a href="http://brinidesigner.com/say-hello/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">contact me</a>
+Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio page</a> for the complete documentation and a video tutorial on how to use it.
 
 == Installation ==
 
