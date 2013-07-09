@@ -58,7 +58,7 @@ function afp_portfolio_items_page(){
 
 
 function afp_portfolio_items_page_menu(){
-	add_menu_page( 'Awesome Filterable Portfolio', 'Portfolio Items', 'manage_options', 'afp', 'afp_portfolio_items_page', path_join(WP_PLUGIN_URL, basename(dirname(__FILE__)).'/af-portfolio-icon.png'), 100 );
+	add_menu_page( 'Awesome Filterable Portfolio', __('Portfolio Items', 'awesome-filterable-portfolio'), 'manage_options', 'afp', 'afp_portfolio_items_page', path_join(WP_PLUGIN_URL, basename(dirname(__FILE__)).'/af-portfolio-icon.png'), 100 );
 }
 add_action( 'admin_menu', 'afp_portfolio_items_page_menu' );
 
@@ -68,7 +68,7 @@ function afp_add_new_page(){
 }
 
 function afp_add_new_page_menu(){
-	add_submenu_page( 'afp', 'Add New', 'Add New Item', 'manage_options', 'afp_add_new_portfolio_item', 'afp_add_new_page' );
+	add_submenu_page( 'afp', 'Add New', __('Add New Item', 'awesome-filterable-portfolio'), 'manage_options', 'afp_add_new_portfolio_item', 'afp_add_new_page' );
 }
 add_action( 'admin_menu', 'afp_add_new_page_menu' );
 
@@ -78,7 +78,7 @@ function afp_categories_page(){
 }
 
 function afp_categories_page_menu(){
-	add_submenu_page( 'afp', 'Categories List', 'Categories List', 'manage_options', 'afp_categories', 'afp_categories_page' );
+	add_submenu_page( 'afp', 'Categories List', __('Categories List', 'awesome-filterable-portfolio'), 'manage_options', 'afp_categories', 'afp_categories_page' );
 
 }
 add_action( 'admin_menu', 'afp_categories_page_menu' );
@@ -89,8 +89,7 @@ function afp_add_new_category_page(){
 }
 
 function afp_add_new_category_page_menu(){
-	add_submenu_page( 'afp', 'Add New Category', 'Add New Category', 'manage_options', 'afp_add_new_category', 'afp_add_new_category_page' );
-
+	add_submenu_page( 'afp', 'Add New Category', __('Add New Category', 'awesome-filterable-portfolio'), 'manage_options', 'afp_add_new_category', 'afp_add_new_category_page' );
 }
 add_action( 'admin_menu', 'afp_add_new_category_page_menu' );
 
@@ -564,7 +563,7 @@ function afp_options_page(){
 
 
 function afp_options_page_menu(){
-	add_submenu_page( 'afp', 'Options', 'Options', 'manage_options', 'afp_options_page', 'afp_options_page' );
+	add_submenu_page( 'afp', 'Options', __('Options', 'awesome-filterable-portfolio'), 'manage_options', 'afp_options_page', 'afp_options_page' );
 }
 add_action( 'admin_menu', 'afp_options_page_menu' );
 
