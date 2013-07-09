@@ -437,14 +437,14 @@ function afp_get_categories_page(){
 	<?php 
 	$cats = $wpdb->get_results('SELECT * FROM ' . $wpdb->prefix . 'afp_categories');
 	if ($cats == null) {
-		_e('You don\'t have any categories. Please <a href="' . get_bloginfo('url') . '/wp-admin/admin.php?page=afp_add_new_category" title="">' . _e('Add a New Category', 'awesome-filterable-portfolio') . '</a>' , 'awesome-filterable-portfolio');
+		echo(__('You don\'t have any categories.', 'awesome-filterable-portfolio') . __('Please', 'awesome-filterable-portfolio') . '<a href="' . get_bloginfo('url') . '/wp-admin/admin.php?page=afp_add_new_category" title="">' . __('Add a New Category', 'awesome-filterable-portfolio') . '</a>' );
 		} else {
 	?>
 	<table class="widefat">
 		<thead>
 			<tr>
-				<th class="row-title">Name</th>
-				<th>Description</th>
+				<th class="row-title"><?php _e('Name', 'awesome-filterable-portfolio'); ?></th>
+				<th><?php _e('Description', 'awesome-filterable-portfolio'); ?></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -465,8 +465,8 @@ function afp_get_categories_page(){
 		</tbody>
 		<tfoot>
 			<tr>
-				<th class="row-title">Name</th>
-				<th>Description</th>
+				<th class="row-title"><?php _e('Name', 'awesome-filterable-portfolio'); ?></th>
+				<th><?php _e('Description', 'awesome-filterable-portfolio'); ?></th>
 			</tr>
 		</tfoot>
 	</table>
@@ -537,7 +537,7 @@ function afp_options_page(){
                         <table cellpadding="3">
                         	<tr>
                             	<td style="width:140px;" valign="top"><b><?php _e('Animation Properties:', 'awesome-filterable-portfolio'); ?></b></td>
-                                <td>Speed:
+                                <td><?php _e('Speed:', 'awesome-filterable-portfolio'); ?>
                                 <select name="anim_speed">
                                 	<option value="1000" <?php if($afpOptions['anim_speed']=='1000'){ echo('selected'); } ?>><?php _e('Slow', 'awesome-filterable-portfolio'); ?></option>
                                     <option value="600" <?php if($afpOptions['anim_speed']=='600'){ echo('selected'); } ?>><?php _e('Medium', 'awesome-filterable-portfolio'); ?></option>
