@@ -24,7 +24,7 @@ Awesome Filterable Portfolio allows designers, artists, photographers to create,
 * Filtered items using jQuery animations
 * Unlimited items/categories
 * Easy to use and customize
-* Translated to 4 languages (and more coming)
+* Available in 4 languages (and more coming)
 
 <h4>How to use it?</h4>
 Once the plugin is installed and activated a new menu "Portfolio Items" will be added.
