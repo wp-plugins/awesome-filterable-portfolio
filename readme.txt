@@ -35,7 +35,7 @@ Once the plugin is installed and activated a new menu "Portfolio Items" will be 
 <pre>[af-portfolio]</pre>
 That's it!
 
-<b>Use the Options page to customize your portfolio.</b>
+<strong>Use the Options page to customize your portfolio.</strong>
 
 Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio page</a> for the complete documentation and a video tutorial on how to use it.
 
