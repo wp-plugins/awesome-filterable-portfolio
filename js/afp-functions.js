@@ -61,3 +61,10 @@ jQuery(document).ready(function($) {
 	});	
 });
 
+
+jQuery(document).ready(function($) {
+	$('.img-link-initial').adipoli({
+		'startEffect' : startFX,
+		'hoverEffect' : hoverFX
+	});
+});
