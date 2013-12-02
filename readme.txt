@@ -44,6 +44,7 @@ Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filtera
 * French
 * English
 * Dutch
+* Greek
 
 
 == Installation ==
