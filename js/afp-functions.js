@@ -41,24 +41,7 @@ jQuery(document).ready(function($) {
 	});
 });
 jQuery(document).ready(function($) {
-	
-	/*-- FANCYBOX --*/
-	/*
-			maxWidth	: 800,
-			maxHeight	: 600,
-			type        : 'ajax',
-	*/
-	$(".fancybox").fancybox({
-		maxWidth	: 1000,
-		maxHeight	: 800,
-		fitToView	: false,
-		width		: '85%',
-		height		: '85%',
-		autoSize	: false,
-		closeClick	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	});	
+	$(".colorbox").colorbox();
 });
 
 

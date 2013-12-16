@@ -4,8 +4,8 @@ Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase, work, image, hover, effect
 Requires at least: 3.0
-Tested up to: 3.7.1
-Stable tag: 1.7.5
+Tested up to: 3.8
+Stable tag: 1.7.8
 License: GPL
 Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
