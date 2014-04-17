@@ -4,11 +4,11 @@
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Description: Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
-Version: 1.7.8
+Version: 1.8
 Author: BriniA
 Author URI: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
-Copyright 2012-2013  BriniA  (email : contact@brinidesigner.com)
+Copyright 2012-2014  BriniA  (email : contact@brinidesigner.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
@@ -105,8 +105,6 @@ function afp_help_meta_box(){
     <div class="inside">
       <p>Watch this <a target="_blank" href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Video Tutorial</a></p>
       <p>Read the plugin's <a target="_blank" href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/docs/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Documentation</a></p>
-      <hr />
-      <p>For more cool stuff <a target="_blank" href="http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">visit the author's website</a></p>
     </div>
   </div>
   <div class="postbox">
@@ -121,7 +119,12 @@ function afp_help_meta_box(){
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
       </p>
-      <p><i>A good rating for the plugin will make me happy and keep me working on making it better. </i><strong><a target="_blank" href="http://wordpress.org/plugins/awesome-filterable-portfolio/">Rate it now</a></strong></p>
+      <hr />
+      <h4>
+      I started photography and I will be glad to share with you some of my shots.
+      <br /><a target="_blank" href="http://brinidesigner.com/photography/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Visit my photography portfolio</a>
+      </h4>
+
     </div>
   </div>
 </div>

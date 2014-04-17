@@ -41,7 +41,10 @@ jQuery(document).ready(function($) {
 	});
 });
 jQuery(document).ready(function($) {
-	$(".colorbox").colorbox();
+	$(".colorbox").colorbox({
+		transition: 'elastic',
+		fadeOut: 250
+	});
 });
 
 

@@ -4,8 +4,8 @@ Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase, work, image, hover, effect
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.7.8
+Tested up to: 3.9
+Stable tag: 1.8
 License: GPL
 Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
@@ -24,7 +24,7 @@ Awesome Filterable Portfolio allows designers, artists, photographers to create,
 * Filtered items using jQuery animations
 * Unlimited items/categories
 * Easy to use and customize
-* Available in 4 languages (and more coming)
+* Available in 4 languages (and there's more coming)
 
 <h4>How to use it?</h4>
 Once the plugin is installed and activated a new menu "Portfolio Items" will be added.
@@ -38,6 +38,8 @@ That's it!
 <strong>Use the Options page to customize your portfolio.</strong>
 
 Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio page</a> for the complete documentation and a video tutorial on how to use it.
+
+If you like the plugin, please give it a good rating :)
 
 <h4>Now available in the following languages</h4>
 * Arabic
@@ -106,6 +108,11 @@ Yes, you may display the portfolio in a page or a post.
 * New: Order Categories
 * New: Order Portfolio Items
 * New: Configure Animation Properties
+
+= 1.8 =
+
+* JS scripts updated
+* Compatible with WordPress 3.9
 
 == Upgrade Notice ==
 
