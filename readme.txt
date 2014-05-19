@@ -5,7 +5,7 @@ Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfo
 Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase, work, image, hover, effect
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.8
+Stable tag: 1.8.1
 License: GPL
 Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
