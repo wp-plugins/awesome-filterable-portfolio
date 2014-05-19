@@ -45,8 +45,11 @@ If you like the plugin, please give it a good rating :)
 * Arabic
 * French
 * English
-* Dutch
-* Greek
+* German (Thanks to Andreas Stulberger)
+* Greek (Thanks to Kyriacos Naziris)
+* Spanish (Thanks to Sergio Cobos Ruiz)
+
+Please feel free to contact me if you have a better 
 
 
 == Installation ==
@@ -113,6 +116,9 @@ Yes, you may display the portfolio in a page or a post.
 
 * JS scripts updated
 * Compatible with WordPress 3.9
+
+= 1.8.1 =
+* Added: Spanish
 
 == Upgrade Notice ==
 
