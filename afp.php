@@ -4,7 +4,7 @@
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Description: Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
-Version: 1.8.2
+Version: 1.8.3
 Author: BriniA
 Author URI: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
@@ -924,13 +924,13 @@ function afp_activation(){
 			item_image VARCHAR (200),
 			item_category VARCHAR (150)
 			); ";
-	$wpdb->query( $wpdb->prepare($req) );
+	$wpdb->query( $req );
 	$req = "CREATE TABLE IF NOT EXISTS " . $wpdb->prefix . "afp_categories(
 			cat_id INT(5) NOT NULL AUTO_INCREMENT PRIMARY KEY,
 			cat_name VARCHAR (100),
 			cat_description TEXT
 			);";
-	$wpdb->query( $wpdb->prepare($req) );
+	$wpdb->query( $req );
 	
 	//Create the plugin options
 	$afpOptions = array(
