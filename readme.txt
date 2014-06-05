@@ -48,7 +48,7 @@ If you like the plugin, please give it a good rating :)
 * German (Thanks to Andreas Stulberger)
 * Greek (Thanks to Kyriacos Naziris)
 * Spanish (Thanks to Sergio Cobos Ruiz)
-* Turkish (Thanks to <a href="https://twitter.com/Chemistrap">Ahmet Kolcu</a>)
+* Turkish (Thanks to <a href="http://ahmetkolcu.org/">Ahmet Kolcu</a>)
 
 Please feel free to contact me if you have a better translation or to contribute by adding a new language.
 
