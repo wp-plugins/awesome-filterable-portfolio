@@ -5,7 +5,7 @@ Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfo
 Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase, work, image, hover, effect
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.8.1
+Stable tag: 1.8.2
 License: GPL
 Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
@@ -48,8 +48,9 @@ If you like the plugin, please give it a good rating :)
 * German (Thanks to Andreas Stulberger)
 * Greek (Thanks to Kyriacos Naziris)
 * Spanish (Thanks to Sergio Cobos Ruiz)
+* Turkish (Thanks to <a href="https://twitter.com/Chemistrap">Ahmet Kolcu</a>)
 
-Please feel free to contact me if you have a better 
+Please feel free to contact me if you have a better translation or to contribute by adding a new language.
 
 
 == Installation ==
