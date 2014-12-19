@@ -4,11 +4,11 @@
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Description: Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
-Version: 1.8.3
+Version: 1.8.4
 Author: BriniA
 Author URI: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
-Copyright 2012-2014  BriniA  (email : contact@brinidesigner.com)
+Copyright 2012-2015  BriniA
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
@@ -39,12 +39,12 @@ function afp_enqeue_scripts(){
 	if (get_current_screen()->id == 'portfolio-items_page_afp_add_new_portfolio_item'){
 		wp_register_style('datepicker-style', '/wp-content/plugins/' . basename(dirname(__FILE__)) . '/css/jquery-ui-datepicker.css');
 		wp_enqueue_style('datepicker-style');
+		wp_enqueue_media();
 		wp_register_script('afp-admin-functions', get_bloginfo('url') . '/wp-content/plugins/' . basename(dirname(__FILE__)) . '/js/afp-admin-functions.js');
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('jquery-ui-datepicker');
 		wp_enqueue_script('thickbox');
 		wp_enqueue_style('thickbox');
-		wp_enqueue_script('media-upload');
 		wp_enqueue_script('afp-admin-functions');
 	}
 }
@@ -102,29 +102,10 @@ function afp_help_meta_box(){
 <div class="inner-sidebar">
   <div class="postbox">
     <h3><span>Need help?</span></h3>
+    <hr />
     <div class="inside">
       <p>Watch this <a target="_blank" href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Video Tutorial</a></p>
       <p>Read the plugin's <a target="_blank" href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/docs/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Documentation</a></p>
-    </div>
-  </div>
-  <div class="postbox">
-    <h3><span>Like the plugin?</span></h3>
-    <div class="inside">
-      <h3 style="color: #C00;"><strong>Even a small donation is very much appreciated :)</strong></h3>
-      <p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="33E8M6PHF2X48">
-        <input type="image" alt="Donate" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-      </form>
-      </p>
-      <hr />
-      <h4>
-      I started photography and I will be glad to share with you some of my shots.
-      <br /><a target="_blank" href="http://brinidesigner.com/photography/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Visit my photography portfolio</a>
-      </h4>
-
     </div>
   </div>
 </div>
