@@ -106,6 +106,7 @@ function afp_help_meta_box(){
     <div class="inside">
       <p>Watch the <a target="_blank" href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Video Tutorial</a></p>
       <p>Read the plugin's <a target="_blank" href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/docs/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Documentation</a></p>
+	  <p>Read <a target="_blank" href="http://brinidesigner.com/blog/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">my blog</a></p>
     </div>
   </div>
 </div>
