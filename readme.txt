@@ -3,9 +3,9 @@ Contributors: BriniA
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Tags: portfolio, filterable, filter, categorized, category, sort, sortable, gallery, showcase, work, image, hover, effect
-Requires at least: 3.0
+Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.8.4
+Stable tag: 1.8.5
 License: GPL
 Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
@@ -16,7 +16,6 @@ Awesome Filterable Portfolio lets you create a very modern and outstanding portf
 Awesome Filterable Portfolio allows designers, artists, photographers to create, manage and publish a very modern and outstanding filterable portfolio that can be filtered using smooth animations and cool image hover effects. Set up, customize and publish your portfolio within just a few minutes.
 
 <h4>Features</h4>
-* WordPress 4.1 Compatible
 * Customizable image hover effects
 * Order Portfolio Categories
 * Order Portfolio Items
@@ -25,7 +24,8 @@ Awesome Filterable Portfolio allows designers, artists, photographers to create,
 * Filtered items using jQuery animations
 * Unlimited items/categories
 * Easy to use and customize
-* Available in 4 languages (and there's more coming)
+* Available in 8 languages (and there's more coming)
+* New <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">video tutorial</a> to help you get started
 
 <h4>How to use it?</h4>
 Once the plugin is installed and activated a new menu "Portfolio Items" will be added.
@@ -50,6 +50,7 @@ If you like the plugin, please give it a good rating :)
 * Greek (Thanks to Kyriacos Naziris)
 * Spanish (Thanks to Sergio Cobos Ruiz)
 * Turkish (Thanks to <a href="http://ahmetkolcu.org/">Ahmet Kolcu</a>)
+* Polish  (Thanks to Michal Smolinski)
 
 Please feel free to contact me if you have a better translation or to contribute by adding a new language.
 
@@ -85,6 +86,7 @@ Yes, you may display the portfolio in a page or a post.
 5. screenshot-5.png
 6. screenshot-6.png
 7. screenshot-7.png
+8. screenshot-8.png
 
 == Changelog ==
 
@@ -130,7 +132,10 @@ Yes, you may display the portfolio in a page or a post.
 
 = 1.8.4 =
 * Javascript scripts update
-* The plugin now uses the modern Media Uploader
+
+= 1.8.5 =
+* CSS style updates and fixes
+* The plugin now uses the modern Media Uploader!
 
 == Upgrade Notice ==
 

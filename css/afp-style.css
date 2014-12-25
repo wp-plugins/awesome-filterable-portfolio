@@ -22,6 +22,11 @@ ul.afp-items{
 
 li.afp-single-item{
 	float: left;
+	padding-right: 20px;
+}
+
+li.afp-single-item a.colorbox{
+	border: none;
 }
 
 ul.afp-item-details{
