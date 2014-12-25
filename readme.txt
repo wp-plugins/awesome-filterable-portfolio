@@ -9,7 +9,7 @@ Stable tag: 1.8.5
 License: GPL
 Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
-Awesome Filterable Portfolio lets you create a very modern and outstanding portfolio
+Create in less than 5 minutes a very modern and outstanding portfolio which filters instantly using jQuery animations. Select from a huge set of effects and animation presets to customize the look of your portfolio.
 
 == Description ==
 
