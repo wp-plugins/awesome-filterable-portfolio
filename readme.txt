@@ -50,7 +50,7 @@ If you like the plugin, please give it a good rating :)
 * Greek (Thanks to Kyriacos Naziris)
 * Spanish (Thanks to Sergio Cobos Ruiz)
 * Turkish (Thanks to <a href="http://ahmetkolcu.org/">Ahmet Kolcu</a>)
-* Polish  (Thanks to Michal Smolinski)
+* Polish  (Thanks to <a href="http://michalsmolinski.pl/">Michal Smolinski</a>)
 
 Please feel free to contact me if you have a better translation or to contribute by adding a new language.
 
