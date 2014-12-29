@@ -57,7 +57,7 @@ Please feel free to contact me if you have a better translation or to contribute
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+This section describes how to install Awesome Filterable Portfolio and get it working.
 
 1. Download, install and activate the plugin
 2. Through the admin panel, create a category
