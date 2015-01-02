@@ -52,7 +52,7 @@ If you like the plugin, please give it a good rating :)
 * Turkish (Thanks to <a href="http://ahmetkolcu.org/">Ahmet Kolcu</a>)
 * Polish  (Thanks to <a href="http://michalsmolinski.pl/">Michal Smolinski</a>)
 
-Please feel free to contact me if you have a better translation or to contribute by adding a new language.
+Please feel free to <a href="http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">contact me</a> if you have a better translation or to contribute by adding a new language.
 
 
 == Installation ==
