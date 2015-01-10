@@ -15,7 +15,7 @@ Awesome Filterable Portfolio allows you to create a very modern and outstanding 
 
 Awesome Filterable Portfolio allows designers, artists, photographers to create, manage and publish a very modern and outstanding filterable portfolio that can be filtered using smooth animations and cool image hover effects.   Select from a huge set of effects and animation presets to customize the look of your portfolio. Set up, customize and publish your portfolio within just a few minutes.
 
-<h4>Filterable Portfolio Features</h4>
+<h4>Features</h4>
 * Customizable image hover effects
 * Order Portfolio Categories
 * Order Portfolio Items
