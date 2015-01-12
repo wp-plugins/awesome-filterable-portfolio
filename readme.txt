@@ -2,7 +2,7 @@
 Contributors: BriniA
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
-Tags: awesome portfolio, awesome filterable portfolio, portfolio, filterable, filter, categorized, category, categories, sort, sortable, photos, photographs, photography, responsive,  gallery, image gallery, picture, pictures, clients, project, projects, showcase, work, image, hover, effect, thumbnails, jquery, animation, jquery animation, jquery effects, image portfolio, photo portfolio, gallery portfolio ,wp portfolio, wordpress portfolio, filterable portfolio, porfolio, portolio, wordpress gallery, photo gallery, web design, artist, simple portfolio, simple gallery
+Tags: portfolio, filterable portfolio, simple portfolio, photo portfolio, portfolio plugin, gallery portfolio, sortable portfolio, wp portfolio, wordpress portfolio, best portfolio plugin, awesome portfolio, awesome filterable portfolio, porfolio, portolio, filterable, filter, categorized, category, categories, sort, sortable, photos, photographs, photography, responsive, wordpress gallery, gallery, image gallery, picture, pictures, clients, project, projects, showcase, work, image, hover, effect, thumbnails, jquery, animation, jquery animation, jquery effects, image portfolio, photo gallery, web design, artist, simple gallery
 Requires at least: 3.5
 Tested up to: 4.1
 Stable tag: 1.8.5
@@ -25,7 +25,7 @@ Awesome Filterable Portfolio allows designers, artists, photographers to create,
 * Unlimited items/categories
 * Easy to use and customize
 * Available in 8 languages (and there's more coming)
-* New <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">video tutorial</a> to help you get started
+* New <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">video tutorial</a> to help you get started with Filterable Portfolio
 
 <h4>How to use it?</h4>
 Once the plugin is installed and activated a new menu "Portfolio Items" will be added.
@@ -51,6 +51,9 @@ If you like the plugin, please give it a good rating :)
 * Spanish (Thanks to Sergio Cobos Ruiz)
 * Turkish (Thanks to <a href="http://ahmetkolcu.org/">Ahmet Kolcu</a>)
 * Polish  (Thanks to <a href="http://michalsmolinski.pl/">Michal Smolinski</a>)
+
+<h4>Documentation</h4>
+<a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio Documentation</a>
 
 Please feel free to <a href="http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">contact me</a> if you have a better translation or to contribute by adding a new language.
 
