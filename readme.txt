@@ -38,9 +38,8 @@ That's it!
 
 <strong>Use the Options page to customize your portfolio.</strong>
 
-Please visit <a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio page</a> for the complete documentation and a video tutorial on how to use it.
-
-If you like the plugin, please give it a good rating :)
+<h4>Documentation</h4>
+<a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio Documentation</a>
 
 <h4>Now available in the following languages</h4>
 * Arabic
@@ -52,11 +51,9 @@ If you like the plugin, please give it a good rating :)
 * Turkish (Thanks to <a href="http://ahmetkolcu.org/">Ahmet Kolcu</a>)
 * Polish  (Thanks to <a href="http://michalsmolinski.pl/">Michal Smolinski</a>)
 
-<h4>Documentation</h4>
-<a href="http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">Awesome Filterable Portfolio Documentation</a>
-
 Please feel free to <a href="http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP">contact me</a> if you have a better translation or to contribute by adding a new language.
 
+<em>If you like the Awesome Filterable Portfolio plugin, please give it a good rating :)</em>
 
 == Installation ==
 
