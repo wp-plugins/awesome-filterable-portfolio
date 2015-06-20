@@ -1,0 +1,308 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/awesome-filterable-portfolio\n"
+"POT-Creation-Date: 2013-07-09 22:24:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-05-18 11:08+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"X-Generator: Poedit 1.7.4\n"
+"Language-Team: \n"
+"Language: sr_RS\n"
+
+#: afp.php:61
+msgid "Portfolio Items"
+msgstr "Portfolio stavke"
+
+#: afp.php:71
+msgid "Add New Item"
+msgstr "Dodaj novu stavku"
+
+#: afp.php:81
+msgid "Categories List"
+msgstr "Lista kategorija"
+
+#: afp.php:92 afp.php:351 afp.php:359
+msgid "Add New Category"
+msgstr "Dodaj novu kategoriju"
+
+#: afp.php:136 afp.php:143
+msgid "Add New Portfolio Item"
+msgstr "Dodaj novu Portfolio stavku"
+
+#: afp.php:147 afp.php:217
+msgid "Project Name :"
+msgstr "Naziv projekta:"
+
+#: afp.php:151 afp.php:221
+msgid "Client :"
+msgstr "Klijent:"
+
+#: afp.php:155 afp.php:225
+msgid "Date :"
+msgstr "Datum:"
+
+#: afp.php:159 afp.php:229
+msgid "Project Link :"
+msgstr "Link za projekat:"
+
+#: afp.php:161
+msgid "Add a URL to your project. If left empty no date will be displayed"
+msgstr ""
+"Dodajte URL svom projektu. Ako polje ostane prazno, datum neće biti prikazan."
+
+#: afp.php:164 afp.php:233
+msgid "Category :"
+msgstr "Kategorija:"
+
+#: afp.php:176 afp.php:245
+msgid "Image"
+msgstr "Slika"
+
+#: afp.php:177 afp.php:246
+msgid "Upload Image"
+msgstr "Otpremi sliku"
+
+#: afp.php:178 afp.php:247
+msgid ""
+"This is the image that will be displayed when you show the project details."
+msgstr "Ova slika biće prikazana kad prikažete detalje projekta."
+
+#: afp.php:181 afp.php:250 afp.php:294 afp.php:324
+msgid "Thumbnail"
+msgstr "Sličica"
+
+#: afp.php:182 afp.php:251
+msgid "Upload Thumbnail"
+msgstr "Otpremi sličicu"
+
+#: afp.php:183 afp.php:252
+msgid ""
+"Use a small image for preview purpose. You may select an image from the "
+"Media Library and select Thumbnail for the image size."
+msgstr ""
+"Koristite malu sliku za pregled. Možete odabrati i sliku iz biblioteke "
+"medija, a zatim i sličicu za veličinu slike."
+
+#: afp.php:186 afp.php:255 afp.php:367 afp.php:405
+msgid "Description :"
+msgstr "Opis:"
+
+#: afp.php:190
+msgid "Save New Portfolio Item"
+msgstr "Sačuvaj novu Portfolio stavku"
+
+#: afp.php:204 afp.php:213
+msgid "Edit Portfolio Item"
+msgstr "Uredi Portfolio stavku"
+
+#: afp.php:205
+msgid "Portfolio Item added successfully"
+msgstr "Portfolio stavka uspešno dodata"
+
+#: afp.php:205
+msgid "Portfolio Item edited successfully"
+msgstr "Portfolio stavka uspešno uređena"
+
+#: afp.php:260
+msgid "Save Portfolio Item"
+msgstr "Sačuvaj Portfolio stavku"
+
+#: afp.php:285
+msgid "Portfolio Items "
+msgstr "Portfolio stavke"
+
+#: afp.php:285 afp.php:435
+msgid "Add New"
+msgstr "Dodaj novu"
+
+#: afp.php:288
+msgid "You don't have any portfolio item."
+msgstr "Nemate nijednu Portfolio stavku."
+
+#: afp.php:288 afp.php:439
+msgid "Please"
+msgstr "Molimo vas"
+
+#: afp.php:288
+msgid "Add a New Item"
+msgstr "Dodaj novu stavku"
+
+#: afp.php:295 afp.php:325
+msgid "Title"
+msgstr "Naziv"
+
+#: afp.php:296 afp.php:326
+msgid "Client"
+msgstr "Klijent"
+
+#: afp.php:297 afp.php:327 afp.php:514
+msgid "Date"
+msgstr "Datum"
+
+#: afp.php:298 afp.php:328
+msgid "Link"
+msgstr "Link"
+
+#: afp.php:299 afp.php:329
+msgid "Category"
+msgstr "Kategorija"
+
+#: afp.php:337 afp.php:476
+msgid "Delete Confirmation"
+msgstr "Obriši potvrdu"
+
+#: afp.php:338
+msgid "Are you sure you want to delete this portfolio item?"
+msgstr "Jeste li sigurni kako želite da obrišete ovu portfolio stavku?"
+
+#: afp.php:339 afp.php:478
+msgid "Delete"
+msgstr "Obriši"
+
+#: afp.php:340 afp.php:479
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: afp.php:363 afp.php:401
+msgid "Category name :"
+msgstr "Naziv kategorije:"
+
+#: afp.php:371
+msgid "Save New Category"
+msgstr "Sačuvaj novu kategoriju"
+
+#: afp.php:389 afp.php:397
+msgid "Edit Category"
+msgstr "Uredi kategoriju"
+
+#: afp.php:390
+msgid "Category added successfully"
+msgstr "Kategorija uspešno dodata"
+
+#: afp.php:390
+msgid "Category edited successfully"
+msgstr "Kategorija uspešno uređena"
+
+#: afp.php:410
+msgid "Save Category"
+msgstr "Sačuvaj kategoriju"
+
+#: afp.php:435
+msgid "Categories "
+msgstr "Kategorije"
+
+#: afp.php:439
+msgid "You don't have any categories."
+msgstr "Nemate nikakve kategorije. "
+
+#: afp.php:439
+msgid "Add a New Category"
+msgstr "Dodaj novu kategoriju"
+
+#: afp.php:445 afp.php:467
+msgid "Name"
+msgstr "Naziv"
+
+#: afp.php:446 afp.php:468
+msgid "Description"
+msgstr "Opis"
+
+#: afp.php:477
+msgid "Are you sure you want to delete this category?"
+msgstr "Jeste li sigurni kako želite da obrišete ovu kategoriju?"
+
+#: afp.php:491 afp.php:566
+msgid "Options"
+msgstr "Opcije"
+
+#: afp.php:499
+msgid "Portfolio Options"
+msgstr "Portfolio opcije"
+
+#: afp.php:504
+msgid "Sort Categories:"
+msgstr "Sortiraj kategorije "
+
+#: afp.php:506
+msgid "Sort categories by name"
+msgstr "Sortiraj kategorije po nazivu"
+
+#: afp.php:510
+msgid "Sort Portfolio Items by:"
+msgstr "Sortiraj Portfolio stavke:"
+
+#: afp.php:513
+msgid "Project Name"
+msgstr "Naziv projekta"
+
+#: afp.php:515
+msgid "Client Name"
+msgstr "Ime klijenta"
+
+#: afp.php:518
+msgid ""
+"Select a creteria to sort the portfolio items. Choose the empty option to "
+"sort by the items' order of creation."
+msgstr ""
+"Izaberite kriterijume za sortiranje portfolio stavki. Izaberite praznu "
+"opciju da biste sortirali prema redosledu kreiranja stavki. "
+
+#: afp.php:525
+msgid "Project Links open in:"
+msgstr "Otvori linkove projekta u:"
+
+#: afp.php:528
+msgid "New Tab / Window"
+msgstr "Novom tabulatoru/Prozoru"
+
+#: afp.php:529
+msgid "Same Tab / Window"
+msgstr "Istom tabulatoru/Prozoru"
+
+#: afp.php:531
+msgid ""
+"This option specifies where the Project Link for a Portfolio Item should be "
+"open."
+msgstr ""
+"Ova opcija navodi gde treba da se otvori link projekta za Portfolio stavku."
+
+#: afp.php:538
+msgid "Animation Properties:"
+msgstr "Atributi animacije:"
+
+#: afp.php:539
+msgid "Speed:"
+msgstr "Brzina:"
+
+#: afp.php:541
+msgid "Slow"
+msgstr "Sporo"
+
+#: afp.php:542
+msgid "Medium"
+msgstr "Srednje"
+
+#: afp.php:543
+msgid "Fast"
+msgstr "Brzo"
+
+#: afp.php:547
+msgid "Use easing for animations"
+msgstr "Koristite poboljšavanje za animacije"
+
+#: afp.php:552
+msgid "Save Options"
+msgstr "Sačuvaj opcije"
+
+#: afp.php:770
+msgid "All"
+msgstr "Sve"
+
+#: afp.php:787
+msgid "Project Link"
+msgstr "Link za projekat"
