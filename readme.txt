@@ -5,7 +5,7 @@ Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfo
 Tags: portfolio, filterable portfolio, simple portfolio, wordpress portfolio, portfolio wordpress, photo portfolio, portfolio plugin, gallery portfolio, sortable portfolio, wp portfolio, image portfolio, best portfolio plugin, awesome portfolio, awesome filterable portfolio, portfolio shortcode, filterable, filter, categorized, category, categories, sort, sortable, photos, clients, project, projects, showcase, work, thumbnails, jquery, animation, jquery animation, jquery effects
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.8.5
+Stable tag: 1.8.6
 License: GPL
 Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
