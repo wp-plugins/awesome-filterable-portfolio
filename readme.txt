@@ -4,8 +4,8 @@ Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Tags: portfolio, filterable portfolio, simple portfolio, wordpress portfolio, portfolio wordpress, photo portfolio, portfolio plugin, gallery portfolio, sortable portfolio, wp portfolio, image portfolio, best portfolio plugin, awesome portfolio, awesome filterable portfolio, portfolio shortcode, filterable, filter, categorized, category, categories, sort, sortable, photos, clients, project, projects, showcase, work, thumbnails, jquery, animation, jquery animation, jquery effects
 Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 1.8.6
+Tested up to: 4.2.4
+Stable tag: 1.9
 License: GPL
 Donate link: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/video/
 
@@ -136,6 +136,9 @@ Yes, you may display the portfolio in a page or a post.
 = 1.8.5 =
 * CSS style updates and fixes
 * The plugin now uses the modern Media Uploader!
+
+= 1.9 =
+* Bug fixes
 
 == Upgrade Notice ==
 

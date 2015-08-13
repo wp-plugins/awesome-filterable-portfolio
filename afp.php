@@ -4,7 +4,7 @@
 Plugin Name: Awesome Filterable Portfolio
 Plugin URI: http://brinidesigner.com/wordpress-plugins/awesome-filterable-portfolio/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 Description: Awesome Filterable Portfolio allows you to create a portfolio that you can filter its elements using smooth animations.
-Version: 1.8.5
+Version: 1.9
 Author: BriniA
 Author URI: http://brinidesigner.com/?utm_source=AFP&utm_medium=AFP&utm_campaign=AFP
 
@@ -224,7 +224,7 @@ function afp_get_new_portfolio_item_page(){
   </div>
   <!-- .metabox-holder -->
   <?php } else { 
-	$item_id = $_GET['item_id'];
+	$item_id = esc_sql($_GET['item_id']);
 	$msg = $_GET['msg'];
 	global $wpdb;
 	$item = $wpdb->get_row('SELECT * FROM ' . $wpdb->prefix . 'afp_items WHERE item_id=' . $item_id);
@@ -350,8 +350,8 @@ function afp_get_potfolio_items_page(){
 	?>
 <div class="wrap">
 <?php 
-	$item_id = $_GET['item_id'];
-	$action=$_GET['action'];
+	$item_id = esc_sql($_GET['item_id']);
+	$action= $_GET['action'];
 	if( $action=='' || $action=='delete' ){ 
 	if ($action=='delete') { $wpdb->query( $wpdb->prepare('DELETE FROM ' . $wpdb->prefix . 'afp_items WHERE item_id=%d', $item_id ) ); }
 	?>
@@ -476,7 +476,7 @@ function afp_get_new_category_page(){
 <!-- .wrap -->
 <?php
 }else{
-	$cat_id = $_GET['cat_id'];
+	$cat_id = esc_sql($_GET['cat_id']);
 	$msg = $_GET['msg'];
 	global $wpdb;
 	$cat = $wpdb->get_row('SELECT * FROM ' . $wpdb->prefix . 'afp_categories WHERE cat_id=' . $cat_id);
@@ -544,7 +544,7 @@ function afp_get_categories_page(){
 	?>
 <div class="wrap">
 <?php 
-	$cat_id = $_GET['cat_id'];
+	$cat_id = esc_sql($_GET['cat_id']);
 	$action=$_GET['action'];
 	if( $action=='' || $action=='delete' ){ 
 	if ($action=='delete') { $wpdb->query( $wpdb->prepare( 'DELETE FROM ' . $wpdb->prefix . 'afp_categories WHERE cat_id=%d', $cat_id ) ); }
@@ -809,9 +809,13 @@ add_action( 'admin_menu', 'afp_options_page_menu' );
 
 global $wpdb;
 
-
+if(isset($_POST['which'])){
+  $which = $_POST['which'];
+} else {
+  $which = '';
+}
 /*** PORTFOLIO ITEM ***/
-if($_POST['which']=='new_portfolio_item'){
+if($which=='new_portfolio_item'){
 	$item_title = $_POST['title'];
 	$item_link = $_POST['link'];
 	$item_category = $_POST['category'];
@@ -830,7 +834,7 @@ if($_POST['which']=='new_portfolio_item'){
 	VALUES( %s, %s, %s, %s, %s, %s, %s, %s)' , $item_title, $item_link, $item_description, $item_client, $item_date, $item_thumbnail, $item_image, $item_category ));
 	header ('Location: ' . get_bloginfo('url') . '/wp-admin/admin.php?page=afp_add_new_portfolio_item&msg=added&item_id=' . $wpdb->insert_id);
 }
-if($_POST['which']=='update_portfolio_item'){
+if($which=='update_portfolio_item'){
 	$item_id = $_POST['item_id'];
 	$item_title = $_POST['title'];
 	$item_link = $_POST['link'];
@@ -853,7 +857,7 @@ if($_POST['which']=='update_portfolio_item'){
 
 /*** CATEGORY ***/
 
-if($_POST['which']=='new_category'){
+if($which=='new_category'){
 	$cat_name = $_POST['title'];
 	$cat_description = $_POST['description'];
 	$wpdb->query($wpdb->prepare('
@@ -861,7 +865,7 @@ if($_POST['which']=='new_category'){
 	VALUES( %s, %s)' , $cat_name, $cat_description ));
 	header ('Location: ' . get_bloginfo('url') . '/wp-admin/admin.php?page=afp_add_new_category&msg=added&cat_id=' . $wpdb->insert_id);
 }
-if($_POST['which']=='update_category'){
+if($which=='update_category'){
 	$cat_id = $_POST['cat_id'];
 	$cat_name = $_POST['title'];
 	$cat_description = $_POST['description'];
@@ -871,7 +875,7 @@ if($_POST['which']=='update_category'){
 }
 
 /*** OPTIONS PAGE ***/
-if($_POST['which']=='options_page'){
+if($which=='options_page'){
 	$sort_cat = $_POST['sort_cat'];
 	$sort_items = $_POST['sort_items'];
 	$project_link = $_POST['project_link'];
